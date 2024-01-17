@@ -2,7 +2,7 @@ package routes
 
 import (
 	"github.com/gin-gonic/gin"
-	controllers "gitlab.com/rahtz147/cms-coffee-app/app/Http/Controllers"
+	controllers "gitlab.com/rahtz147/cms-coffee-app/app/Http/Controllers/APIControllers"
 )
 
 func SetupRoutes(router *gin.Engine) {
